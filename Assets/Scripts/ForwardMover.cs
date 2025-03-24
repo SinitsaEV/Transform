@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class MoveForward : MonoBehaviour
+public class ForwardMover : MonoBehaviour
 {
-    private float _speed = 5f;
+    [SerializeField] private float _speed = 5f;
 
     private void Update()
     {
